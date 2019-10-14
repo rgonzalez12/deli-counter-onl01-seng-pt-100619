@@ -15,7 +15,7 @@ def line(array) # this was the one I figured out
 end
 
 def take_a_number(line, name)
-  line.push(name)
+  line << name
   return "Welcome, #{name}. You are number #{line.length} in line."
 end
 
