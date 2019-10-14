@@ -2,12 +2,11 @@ katz_deli = []
 
 def line(array)
   if array.length > 1
-    line = []
+    arr = []
     line.each do |name|
-      array.push("#{counter}. #{name}")
+      arr.push("#{counter}. #{name}")
       counter += 1 
-    end 
-    puts "The line is currently: #{array.join(" ")}"
+    puts "The line is currently: #{arr.join(" ")}"
   else
     puts "The line is currently empty."
   end
