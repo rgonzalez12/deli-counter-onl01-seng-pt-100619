@@ -3,8 +3,8 @@ katz_deli = []
 def line(array)
   if array.length > 1
     arr = []
-    counter = 0
-    line.each do |name|
+    counter = 1
+    array.each do |name|
       arr.push("#{counter}. #{name}")
       counter += 1 
     puts "The line is currently: #{arr.join(" ")}"
