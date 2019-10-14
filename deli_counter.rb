@@ -14,7 +14,7 @@ def line(array) # this was the one I figured out
   end
 end
 
-def take_a_number(line, name)
+def take_a_number(array, name)
   array.push(name)
   position = array.index(name)
   puts "Welcome, #{name}. You are number #{array.index(name)+1} in line."
