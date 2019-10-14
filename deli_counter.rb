@@ -1,14 +1,14 @@
 katz_deli = []
 
-def line(array)
-  if array.length > 1
-    arr = []
-    counter = 1
-    arr.each do |name|
-      arr.push("#{counter}. #{name}")
+def line(array) # this was the one I figured out
+  if array.length >= 1
+    nuarray = []
+    counter = 1 
+    array.each do |name|
+      nuarray.push("#{counter}. #{name}")
       counter += 1 
-    puts "The line is currently: #{arr.join(" ")}"
-  end
+    end 
+    puts "The line is currently: #{nuarray.join(" ")}"
   else
     puts "The line is currently empty."
   end
