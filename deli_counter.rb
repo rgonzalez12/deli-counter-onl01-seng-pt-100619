@@ -17,8 +17,8 @@ end
 def take_a_number(array, name)
  array.push(name)
  number = array.index(name)
-puts "Welcome, #{name}. You are number #{array.index(name)+1} in line."
-return name, number
+ puts "Welcome, #{name}. You are number #{array.index(name)+1} in line."
+ return name, number
 end
 
 def now_serving(array)
