@@ -1,6 +1,6 @@
 katz_deli = []
 
-def line(array) # this was the one I figured out
+def line(array)
   if array.length >= 1
     current_line = []
     counter = 1 
