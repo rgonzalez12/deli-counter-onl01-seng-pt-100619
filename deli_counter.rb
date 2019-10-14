@@ -3,6 +3,7 @@ katz_deli = []
 def line(array)
   if array.length > 1
     arr = []
+    counter = 0
     line.each do |name|
       arr.push("#{counter}. #{name}")
       counter += 1 
