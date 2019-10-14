@@ -10,7 +10,7 @@ def line(array) # this was the one I figured out
     end 
     puts "The line is currently: #{current_line.join(" ")}"
   else
-    return "The line is currently empty."
+    puts "The line is currently empty."
   end
 end
 
@@ -25,6 +25,6 @@ def now_serving(array)
  if array.empty? == true 
   puts "There is nobody waiting to be served!"
  else array.empty? == false 
-  return "Currently serving #{array.shift}."
+  puts "Currently serving #{array.shift}."
  end 
 end
