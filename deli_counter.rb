@@ -1,8 +1,8 @@
 katz_deli = []
 
 def line(array)
-  
-  if array == []
+  if array.length > 1
+  else
     puts "The line is currently empty."
   end
 end
