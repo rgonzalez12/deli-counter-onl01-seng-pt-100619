@@ -2,10 +2,10 @@ katz_deli = []
 
 def line(array) # this was the one I figured out
   if array.length >= 1
-    nuarray = []
+    current_line = []
     counter = 1 
     array.each do |name|
-      nuarray.push("#{counter}. #{name}")
+      current_line.#{counter}. #{name}")
       counter += 1 
     end 
     puts "The line is currently: #{nuarray.join(" ")}"
