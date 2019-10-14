@@ -16,7 +16,7 @@ end
 
 def take_a_number(line, name)
   line << name
-  return "Welcome, #{name}. You are number #{line.length} in line."
+  return "Welcome, #{name}. You are number #{line.index} in line."
 end
 
 def now_serving(array)
