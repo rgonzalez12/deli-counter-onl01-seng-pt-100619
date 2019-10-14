@@ -4,7 +4,7 @@ def line(array)
   if array.length > 1
     arr = []
     counter = 1
-    array.each do |name|
+    arr.each do |name|
       arr.push("#{counter}. #{name}")
       counter += 1 
     puts "The line is currently: #{arr.join(" ")}"
